@@ -18,6 +18,10 @@ Run the application by executing the command npm start in the project directory.
 Open a web browser and navigate to http://localhost:8080 to access the application.
 
 # Usage
+- Set the paths according with your needs, change the value fo the const in server.js file as showed in the picture:
+
+<img width="530" alt="image" src="https://user-images.githubusercontent.com/91114967/222905613-8e66b824-6215-4f81-b25b-cddd12333dc2.png">
+
 - Enter the SSH credentials and remote host IP address in the input fields provided on the web page.
 - Click the "SUBMIT" button to establish an SSH connection to the remote host.
 - To send a file to the remote host, enter the file path and name in the input fields provided, and click the "SEND" button.
