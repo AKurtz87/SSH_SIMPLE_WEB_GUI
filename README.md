@@ -24,6 +24,8 @@ Open a web browser and navigate to http://localhost:8080 to access the applicati
 - To download a file from the remote host, enter the file name in the input field provided, and click the "DOWNLOAD" button.
 - To change the SSH credentials and connect to another remote host, click the "NEW CREDS" button. This will display the input fields for the SSH credentials and remote host IP address. Enter the new credentials and click the "SUBMIT" button to establish a new SSH connection to the new remote host.
 
+<img width="484" alt="image" src="https://user-images.githubusercontent.com/91114967/222895855-e802d56a-e7d7-44f1-8b4c-e09f25f6fd2b.png">
+
 # Security Considerations
 
 <img width="395" alt="image" src="https://user-images.githubusercontent.com/91114967/222894777-7f42612b-ed8d-43e8-bda1-984a3098a089.png">
