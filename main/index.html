@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SSH FILE MANAGER</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <h1>🔑 SSH FILE TRANFER 🗂️</h1>
+      <button type="button" id="changeCreds"  onclick="changeCreds()">
+        NEW CREDS
+      </button>
+    </div>
+      <div class="takeCredentials">
+        <h2>✅ CONNECT TO REMOTE HOST</h2>
+
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter username"
+          autocomplete="off"
+        /><br />
+
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+          autocomplete="off"
+        /><br />
+
+        <input
+          type="text"
+          id="remoteIp"
+          name="remoteIp"
+          placeholder="Enter remote IP"
+          autocomplete="off"
+        /><br />
+        <button type="button" id="takeCredentials" onclick="connectToHost()">
+          SUBMIT
+        </button>
+      </div>
+      <div class="input">
+        <h2>🔏 SEND FILE TO REMOTE HOST</h2>
+
+        <input
+          type="text"
+          id="filePath"
+          name="filePath"
+          placeholder="Enter file path"
+        /><br />
+
+        <input
+          type="text"
+          id="fileName"
+          name="fileName"
+          placeholder="Enter file name"
+        /><br />
+        <button type="button" id="send" onclick="sendFile()">SEND</button>
+
+        <h2>🔏 DOWNLOAD FILE FROM REMOTE HOST</h2>
+
+        <input
+          type="text"
+          id="downloadFileName"
+          name="downloadFileName"
+          placeholder="Enter file name"
+        /><br />
+        <button type="button" id="download" onclick="downloadFile()">DOWNLOAD</button>
+        <br />
+        <br />
+      </div>
+      <script src="/script.js"></script>
+    </div>
+    <input type="hidden" id="usernameH" value="">
+    <input type="hidden" id="passwordH" value="">
+    <input type="hidden" id="remoteIpH" value="">
+  </body>
+</html>

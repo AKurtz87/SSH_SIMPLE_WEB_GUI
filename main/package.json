@@ -1,0 +1,15 @@
+{
+  "name": "ssh_web_file_sharing",
+  "version": "1.0.0",
+  "description": "file sgaring via SSH",
+  "main": "main/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alex Kurtz",
+  "license": "ISC",
+  "dependencies": {
+    "ssh2": "^1.11.0"
+  }
+}
