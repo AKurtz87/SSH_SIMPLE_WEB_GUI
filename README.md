@@ -1,4 +1,4 @@
-# SSH_FILE_MANAGER_WEB_GUI
+# SSH_SIMPLE_WEB_GUI
 SSH File Manager is a web-based file transfer application that allows users to connect to a remote host via SSH and transfer files to and from it. This application is designed to run on a local machine and is only secure when accessed from the localhost, as the credentials required to establish the SSH connection are stored in the HTML page.
 This script uses WebSocket technology to establish a two-way communication channel between the client-side web application and the server-side Node.js application. This enables real-time communication between the two, allowing users to send commands and receive responses without the need for HTTP requests. Because of this, the user does not need to make a POST request every time they want to send a command or perform an action on the remote host. Instead, the WebSocket connection is kept open and messages are sent and received in real-time, making the application more responsive and efficient.
 
